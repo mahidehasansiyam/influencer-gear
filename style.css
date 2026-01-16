@@ -295,6 +295,9 @@ p {
     font-weight: bold;
     
   }
+  .hero img{
+    width: 80%;
+  }
   .feature {
     flex-direction: column;
     display: flex;
@@ -309,6 +312,10 @@ p {
   }
   .feature-text {
     text-align: center;
+  }
+  .feature img{
+    width: 300px;
+    margin: 0 auto;
   }
   .sponsor {
     display: grid;
