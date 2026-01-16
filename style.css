@@ -208,6 +208,8 @@ button {
   gap: 30px;
   margin-bottom: 30px;
   justify-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .collection .box .card {
   display: flex;
@@ -217,9 +219,19 @@ button {
   gap: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   padding: 15px;
+  border-radius: 10px;
+  max-width: 330px;
+  transition: transform .5s ease;
+}
+.collection .box .card:hover{
+  transform: scale(1.1);
+}
+.collection .box .card img{
+  max-width: 250px;
 }
 .collection .box .card h2 {
   margin-bottom: 0;
+  text-align: left;
 }
 .collection .box .card p {
   max-width: 190px;
